@@ -43,8 +43,8 @@ Tasks:
  - "Assembly" allows us to write applications using add, call and push these words are known as "mnemonics" and translated back into machine code by programs - "Assemblers"
   Example: MOV EAX, 0x1234 ;Move data "0x1234" into EAX register. Instead of hex can use decimal or ascii values
  - After semicolon, one can insert comment in assembly language
- - These applications don't have functions and variables..difficult but faster
- - Its possible to create our own Assembly language syntax, but popular - Intel and AT&T syntax
+ - These applications don't have functions and variables. Its difficult but faster.
+ - It is possible to create our own Assembly language syntax, but popular - Intel and AT&T syntax
  - AT&T syntax prefixes the $ and % symbol to almost everything but intel ones are cleaner 
  - Most of the program disassemblers in linux like to use AT&T syntax 
  - 
