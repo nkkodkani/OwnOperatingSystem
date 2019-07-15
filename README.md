@@ -67,3 +67,11 @@ Tasks:
    ;or           
    var db ?            
  
+   DB - Define Byte: 1 byte = 8 bits         
+   DW - Define Word - 2 bytes = 16 bits            
+   DD - Define Double Word - 4 bytes = 32 bits                
+   
+   "int" - interrupt: tells hardware to stop what it is doing and do whatever comes next 
+   
+   
+   
