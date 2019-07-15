@@ -48,7 +48,8 @@ Tasks:
  - AT&T syntax prefixes the $ and % symbol to almost everything but intel ones are cleaner 
  - Most of the program disassemblers in linux like to use AT&T syntax 
  - x86 architecture consists of four general purpose registers (EAX, EBX, ECX and EDX) which are 32 bit 
- - 
+ - These can be broken down 16 bits (AX, BX, CX and DX) and even further into 8 bits (AH, AL, BH, BL, CH, CL, DH and DL) 
+   H & L registers represent high and low byte values
  
  
  
