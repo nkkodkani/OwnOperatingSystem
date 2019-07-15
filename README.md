@@ -64,4 +64,6 @@ Tasks:
    ;Before we use our variable we need to define it as ".data"
    .data
    var db 32
+   ;or
+   var db ?
  
