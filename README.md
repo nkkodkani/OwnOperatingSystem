@@ -42,6 +42,7 @@ Tasks:
  # Chapter: 0x03 Intro to the Assembly Programming Language
  - "Assembly" allows us to write applications using add, call and push these words are known as "mnemonics" and translated back into machine code by programs - "Assemblers"
   Example: MOV EAX, 0x1234 ;Move data "0x1234" into EAX register. Instead of hex can use decimal or ascii values
+           MOV destinaton, source
  - After semicolon, one can insert comment in assembly language
  - These applications don't have functions and variables. Its difficult but faster.
  - It is possible to create our own Assembly language syntax, but popular - Intel and AT&T syntax
@@ -50,6 +51,14 @@ Tasks:
  - x86 architecture consists of four general purpose registers (EAX, EBX, ECX and EDX) which are 32 bit 
  - These can be broken down 16 bits (AX, BX, CX and DX) and even further into 8 bits (AH, AL, BH, BL, CH, CL, DH and DL) 
    H & L registers represent high and low byte values
+ - "A" (EAX, AX, AH, AL) - Accumulator registers. These are used for I/O (input/output), arithmetic, interrupt calls, etc
+ - "B" (EBX, BX, BH and BL) - Base pointers for memory access
+ - "C" (CBX, CX, CH and CL) - Counter registers. Used as loop counters and for shifts
+ - "D" (EDX, DX, DH and DL) - Data registers. Same as "A" are used for I/O (input/output), arithmetic, interrupt calls, etc.
+ - Bottom four rows represent indexes (ESI and EDI) and pointers (ESP and EBP). These registers are responsible for pointing
+   to memory addresses where other code is stored and referenced 
+   
+   Examples:
  
  
  
