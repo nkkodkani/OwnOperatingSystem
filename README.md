@@ -47,6 +47,7 @@ Tasks:
  - It is possible to create our own Assembly language syntax, but popular - Intel and AT&T syntax
  - AT&T syntax prefixes the $ and % symbol to almost everything but intel ones are cleaner 
  - Most of the program disassemblers in linux like to use AT&T syntax 
+ - x86 architecture consists of four general purpose registers (EAX, EBX, ECX and EDX) which are 32 bit 
  - 
  
  
