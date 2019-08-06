@@ -77,6 +77,24 @@ Tasks:
    push: Place operand on the top of the hardware memory. Its the stack so every time push is called it grows from high to low address
    I. Decrement ESP by 4    II. Place operand at address of ESP (stack pointer)
    
+   Example: push eax
+   
+   popd: Remove 4 bytes data element from the top of the hardware stack (esp) move it into the mem location at sp and then inc sp by 4
+   
+   Example: pop ebx
+   
+   Other instructions:
+   Arithmetic & Logic instructions: add, sub, inc, dec, and, or, xor and not
+   jmp:
+   call:
+   
+   SECTIONS:
+   .data:
+   - global variables
+   - read and write access
+   .text:
+   - read only
+   .bss:
    
    
    
