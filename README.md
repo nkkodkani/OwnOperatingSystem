@@ -110,6 +110,7 @@ Tasks:
    - puts appends "\n" by default at the end unlike printf
    - In #include statement, the file enclosed in <> means compiler should look in library version then local file directory
    - In #include statement, the file enclosed in "" means compiler should look in local file directory and then library version
+   - "void" keyword is a pointer and can be 
    
    Example:
    int main(int argc, char *argv[]) {
