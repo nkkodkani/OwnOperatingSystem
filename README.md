@@ -85,17 +85,22 @@ Tasks:
    
    Other instructions:
    Arithmetic & Logic instructions: add, sub, inc, dec, and, or, xor and not
-   jmp:
-   call:
+   jmp: Transfers program control flow to the instruction at the memory location indicated by operand
+   call: Calls out to another subroutine example code in kernel
    
    SECTIONS:
-   .data:
+   I] .data:
    - global variables
+   - declare initialized data and constants
    - read and write access
-   .text:
+   - Example Filename & buffer sizes
+   II] .text:
+   - perform operations
    - read only
-   .bss:
-   
+   III] .bss:
+    - declare variables @ runtime
+    
+   Note: .bss and .data can be used interchangeable though
    
    
    
