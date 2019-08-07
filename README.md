@@ -110,12 +110,15 @@ Tasks:
    - puts appends "\n" by default at the end unlike printf
    - In #include statement, the file enclosed in <> means compiler should look in library version then local file directory
    - In #include statement, the file enclosed in "" means compiler should look in local file directory and then library version
-   - "void" keyword is a pointer and can be 
+   - "void" keyword is a pointer and can be used as a pointer either to procedures or to variables
+   - The main purpose of the void pointer is to simply hold a memory address so that we know about the code in mem location
    
    Example:
    int main(int argc, char *argv[]) {
     //printing argv[0] -> print program name then it will start printing the argument passed at runtime
    }
    
+   # Chapter: 0x05 Getting Started
    
+   - Install virtualbox and then install CentOS
    
