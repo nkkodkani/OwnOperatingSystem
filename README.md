@@ -124,6 +124,6 @@ Tasks:
    
    # Chapter: 0x06 Bootstrapping with the Bootloader
    
-   - When you power on a computer, the firt thing to run is what known as BIOS (Basic Input Output System). 
+   - When you power on a computer, the first thing to run is what known as BIOS (Basic Input Output System).
    - POST (Power On Self Test): BIOS verifies that all hardware is powered on and good to use. This test is POST.
    - 
