@@ -101,6 +101,20 @@ Tasks:
     - declare variables @ runtime
     
    Note: .bss and .data can be used interchangeable though
+   Refer: print_lucas.asm
+   
+  # Chapter: 0x04 Intro to the C Programming Language
+   
+   - C has procedures vs Assembly has section. main procedure is mapped to -start in assembly
+   - puts can't use format specifiers like printf just can print one argument 
+   - puts appends "\n" by default at the end unlike printf
+   - In #include statement, the file enclosed in <> means compiler should look in library version then local file directory
+   - In #include statement, the file enclosed in "" means compiler should look in local file directory and then library version
+   
+   Example:
+   int main(int argc, char *argv[]) {
+    //printing argv[0] -> print program name then it will start printing the argument passed at runtime
+   }
    
    
    
