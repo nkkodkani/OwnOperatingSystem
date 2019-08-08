@@ -135,4 +135,7 @@ How OS handles:
 - First piece of the OS that gets loaded into memory is "Master Boot Record (MBR)"
 - MBR - First sector found on a bootable device and is only 512 bytes in size : 446 bytes - primary bootloader 64 bytes - partition table (describe primary & extended partitions)
 - BIOS located MBR that contains bootable code & load it into the memory starting from physical address "0x07c0"
-- The code that gets loaded and executed is known as "bootloader" in short for
+- The code that gets loaded and executed is known as "bootloader" in short for "bootstrap looder"
+- Bootloader will load the kernel into physical address "0x10000000" which in turn loads the rest of the OS
+- Bootloader contains the entry point into our system
+
