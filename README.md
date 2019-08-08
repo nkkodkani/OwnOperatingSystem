@@ -129,3 +129,8 @@ Tasks:
    - x86 system: CPU is pre-configured to look for the last sixteen bytes of the 32bit address space (0xFFFFFFF0) for a jump instruction to the address in the memory where the BIOS has copied itself. When found BIOS will initiate the POST test.
    
    Gist again: Hardware power on -> POST test passed -> BIOS will look for OS -> OS Found -> Control over to OS         
+
+How OS handles:
+
+First piece of the OS that gets loaded into memory is "Master Boot Record (MBR)"
+MBR - First sector found on a bootable device and is only 512 bytes in size : 446 bytes - primary bootloader 64 bytes - partition table (describe primary & extended partitions)
