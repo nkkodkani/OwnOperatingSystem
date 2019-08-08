@@ -132,5 +132,7 @@ Tasks:
 
 How OS handles:
 
-First piece of the OS that gets loaded into memory is "Master Boot Record (MBR)"
-MBR - First sector found on a bootable device and is only 512 bytes in size : 446 bytes - primary bootloader 64 bytes - partition table (describe primary & extended partitions)
+- BIOS located MBR that contains bootable code & load it into the memory starting from physical address "0x07c0".
+- First piece of the OS that gets loaded into memory is "Master Boot Record (MBR)"
+- MBR - First sector found on a bootable device and is only 512 bytes in size : 446 bytes - primary bootloader 64 bytes - partition table (describe primary & extended partitions)
+- 
