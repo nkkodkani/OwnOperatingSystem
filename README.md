@@ -126,4 +126,6 @@ Tasks:
    
    - When you power on a computer, the first thing to run is what known as BIOS (Basic Input Output System).
    - POST (Power On Self Test): BIOS verifies that all hardware is powered on and good to use. This test is POST.
-   - 
+   - x86 system: CPU is pre-configured to look for the last sixteen bytes of the 32bit address space (0xFFFFFFF0) for a jump instruction to the address in the memory where the BIOS has copied itself. When found BIOS will initiate the POST test.
+   
+   Gist again: Hardware power on -> POST test passed -> BIOS will look for OS -> OS Found -> Control over to OS         
