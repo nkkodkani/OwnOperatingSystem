@@ -139,3 +139,11 @@ How OS handles:
 - Bootloader will load the kernel into physical address "0x10000000" which in turn loads the rest of the OS
 - Bootloader contains the entry point into our system
 
+Refer: bootloader.asm
+
+Bootloader code begins with "bits 16" which indicate that code is intended to be executed in 16 bit as opposed to 32 bit mode the rest of the OS would be running in
+
+x86 architecture when boot up start running in "real mode" (where bootloader runs) and eventually switches to "protected mode"
+
+real vs protected mode:
+Real mode: all applications run within the same memory space this would cause security issues if not switched to protected mode. Therefore when bootloader has loaded the system it with switch the control to kernel where applications are physically isolated due to different address spaces
