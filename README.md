@@ -147,3 +147,5 @@ x86 architecture when boot up start running in "real mode" (where bootloader run
 
 real vs protected mode:
 Real mode: all applications run within the same memory space this would cause security issues if not switched to protected mode. Therefore when bootloader has loaded the system it with switch the control to kernel where applications are physically isolated due to different address spaces
+
+Creating the Entry Point
